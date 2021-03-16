@@ -1,0 +1,11 @@
+# escreve hello e pergunta o nome
+print ("Hello")
+print("Qual seu nome?")
+nome = input ()
+print ('bom te conhecer, ' + nome)
+print ('o tamanho do seu nome é' )
+print (str(len(nome)) + "\n" )
+
+print('qual a sua idade?')
+idade = input()
+print('vc vai ter ' + str(int(idade) + 2) + ' em dois anos')
